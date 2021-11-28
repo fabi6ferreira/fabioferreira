@@ -1,0 +1,36 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans, sans-serif
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+
+* {
+    box-sizing: border-box
+}
+
+main p {
+    font-size: 18px
+}
+
+main p a {
+    color: #219ad4;
+    font-weight: 700
+}
+
+p a:hover {
+    opacity: .7
+}
+
+::-moz-selection {
+    background-color: #219ad4
+}
+
+::selection {
+    background-color: #219ad4
+}
