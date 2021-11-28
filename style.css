@@ -102,33 +102,6 @@ pre[class*=language-] {
     background: hsla(0, 0%, 100%, .5)
 }
 
-.container {
-    margin: 0 auto;
-    max-width: 1000px;
-}
-
-img.left {
-    display: block;
-    float: left;
-}
-
-img.right {
-    display: block;
-    float: right;
-}
-
-@media (max-width: 570px) {
-    img.left {
-        float: none;
-        margin: 0 auto;
-    }
-    img.right {
-        display: block;
-        float: none;
-        margin: 0 auto;
-    }
-}
-
 .token.atrule,
 .token.attr-value,
 .token.keyword {
@@ -274,6 +247,13 @@ h2 {
 .nav[data-v-78c18264] {
     padding-top: 12px;
     margin-bottom: .5rem
+}
+
+.logo2 {
+    text-align: center!important;
+    padding-top: 12px;
+    width: 40%;
+    height: 0%;
 }
 
 .nav .logo[data-v-78c18264] {
